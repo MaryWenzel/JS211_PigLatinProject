@@ -1,0 +1,69 @@
+* {
+  margin: none;
+  padding: none;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #d8a7ca89;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.header {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-family: "Henny Penny", cursive;
+  text-align: center;
+  font-size: 50px;
+  margin-top: -40px;
+  text-shadow: 2px 2px 2px #16bac5;
+}
+
+.speech-box {
+  position: relative;
+  text-align: left;
+}
+/* img */
+.speech-img {
+  margin-top: -15px;
+  width: 700px;
+  height: 250px;
+}
+
+.text-input {
+  width: 100%;
+  resize: none;
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1.5px;
+  padding-left: 25px;
+  padding-top: 5px;
+}
+
+.text-output {
+  width: 600px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Architects Daughter", cursive;
+  font-size: 35px;
+  letter-spacing: 3px;
+  word-wrap: break-word;
+  color: #3b3b58;
+}
+
+.pig-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  margin-top: -2em;
+}
